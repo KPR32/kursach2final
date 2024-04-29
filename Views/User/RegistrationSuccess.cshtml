@@ -1,0 +1,18 @@
+﻿@{
+    Layout = null;
+}
+
+
+<h1>Регистрация прошла успешно</h1>
+
+<p>
+    Если перенеправление на страницу входа не произошло автоматически в течение нескольких секунд,
+    то вы можете перейти по <a asp-controller="User" asp-action="Login">ссылке</a>
+</p>
+
+<script>
+    function goToLoginPage() {
+        window.location = '/user/login';
+    }
+    setTimeout(goToLoginPage, 4500);
+</script>

@@ -1,0 +1,42 @@
+﻿@using FurnitureStore3.Domain.Entities;
+@model Product
+<link rel="stylesheet" href="~/styles/index.css" />
+
+<div class="product-card">
+    <div class="product-card-left">
+        @if (User.IsInRole("admin"))
+        {
+            <div class="product-card-actions">
+                <p>ВЫ УВЕРЕНЫ ЧТО ХОТИТЕ УДАЛИТЬ ДАННЫЙ ТОВАР?</p>
+                <form method="post" asp-controller="Products" asp-action="DeleteProductPost">
+                    <input name="id" type="hidden" value="@Model.Id" />
+                    <input class="link-button-delete" value="Удалить" type="submit" />
+                    <input class="link-button-delete" type="button" id="backButton" value="Назад" />
+                    <div asp-validation-summary="All" class="error-messages"></div>
+                </form>
+            </div>
+        }
+    </div>
+    <div class="product-card">
+        <div class="product-card-left">
+            <div class="image-container">
+                <img src="/images/products/@Model.ImageUrl">
+            </div>
+        </div>
+        <div class="product-card-right">
+            <h2>@Model.Name</h2>
+            <h3>Вес товара: @Model.Weight кг</h3>
+            <h3>Цена товара: @Model.Price ₽</h3>
+            <p>@Model.Description</p>                  
+        </div>
+    </div>
+</div>
+
+<script>
+    // получаем кнопку по ее селектору CSS
+    let backButton = document.querySelector('#backButton');
+    // добавляем обработчик события
+    backButton.onclick = () => {
+        window.location = "/products/index";
+    };
+</script>

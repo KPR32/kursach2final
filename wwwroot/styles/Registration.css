@@ -1,0 +1,77 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    background: url('/images/reg2.jpg');
+    background-size: cover;
+    justify-content: center;
+    height: 100vh;
+    width: auto;
+}
+
+.wrapper {
+    flex-grow: 1;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.side-image {
+    background-size: cover;
+}
+
+.content {
+    padding: 3em 1.5em;
+    background: #B0C4DE;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+    .content form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content input {
+        margin-bottom: 1em;
+        padding: 0.5em 1em;
+        background: #E9E8E0;
+    }
+
+        .content input[type="submit"] {
+            border: 1px solid;
+            border-radius: 5px;
+            font-size: 1em;
+            color: #242C35;
+        }
+
+    .content h1, .content h2 {
+        margin-bottom: 1em;
+        align-self: center;
+    }
+
+    .content p {
+        margin-bottom: 2em;
+    }
+
+    .content a:link, .content a:visited {
+        color: #1E90FF;
+    }
+
+    .content a:hover {
+        text-decoration: none;
+    }
+
+.error-messages ul {
+    color: black;
+    margin-bottom: 1em;
+    font-weight: lighter;
+    list-style-type: none;
+}

@@ -1,0 +1,76 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.wrapper-center {
+    max-width: 1200px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #E9E8E0;
+}
+
+header {
+    height: 25%;
+    width: 100%;
+    background-image: url('/images/header1.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer {
+    height: 2em;
+}
+
+.links ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.links li {
+    flex-grow: 1;
+    margin-right: 2em;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    background: #E9E8E0;
+    height: 3em;
+    margin: 1em 2em;
+    align-items: center;
+    border-radius: 5px;
+    padding-left: 2em;
+}
+
+nav a:link {
+    text-decoration: none;
+    color: #242C35;
+}
+
+nav a:visited {
+    text-decoration: none;
+    color: #242C35;
+}
+
+.links a:hover {
+    color: #D2AB99;
+}
+
+.brand h1 {
+    font-weight: 300;
+}

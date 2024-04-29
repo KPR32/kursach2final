@@ -1,0 +1,41 @@
+﻿@using FurnitureStore3.Domain.Entities
+@model ProductsCatalogViewModel
+<link rel="stylesheet" href="~/styles/index.css" />
+
+@{
+    <div class="products-container">
+        <h1 class="custom-colored-1h1">Мои заказы</h1>
+        <div class="products-list">
+            
+                
+                @foreach (Order order in Model.Orders)
+                {
+                    <div class="product-card">
+                        @foreach (Product product in Model.Products)
+                        {
+                            @if (order.ProductId == product.Id)
+                            {
+                                <div class="product-card-left">
+                                    <div class="image-container">
+                                        <img src="/images/products/@product.ImageUrl">
+                                    </div>
+                                </div>
+                                <div class="product-card-right">
+                                    <h2>@product.Name</h2>
+                                    <h4>Вес товара: @product.Weight кг</h4>
+                                    <h4>Цена товара: @product.Price ₽</h4>
+                                    <div class="placeholder-div"></div>
+                                    <h4>Дата доставки заказа: @order.OrderFinish.ToLongDateString() </h4>
+                                    <h4>Адрес доставки товара: @order.OrderAddress </h4>
+                                    <div class="placeholder-div"></div>
+                                </div>
+                            }
+
+                        }
+
+                    </div>
+                }
+            
+        </div>
+    </div>
+}

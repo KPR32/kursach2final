@@ -1,0 +1,56 @@
+﻿@model UpdateProductViewModel
+<link rel="stylesheet" href="~/styles/AddProduct.css" />
+
+@{
+    Layout = null;
+}
+<div class="wrapper">
+    <div class="content">
+    <div class="product-form">
+    <form method="post" enctype="multipart/form-data">
+        <h1>Изменение товара: </h1>
+            <div class="form-element">
+                <label asp-for="ProductName"></label>
+                <input asp-for="ProductName" />
+            </div>
+            <div class="form-element">
+                <label asp-for="CategoryId"></label>
+                <select asp-for="CategoryId" asp-items="Model.Categories"></select>
+            </div>
+            <div class="form-element">
+                <label asp-for="Weight"></label>
+                <input asp-for="Weight" />
+            </div>
+            <div class="form-element">
+                <label asp-for="Price"></label>
+                <input asp-for="Price" />
+            </div>
+            <div class="form-element">
+                <label asp-for="Description"></label>
+                <input asp-for="Description" />
+            </div>
+
+            <div class="form-element">
+                <label asp-for="Photo"></label>
+                <input asp-for="Photo" accept=".png" />
+            </div>
+            <div asp-validation-summary="All" class="error-messages"></div>
+            <input type="button" id="backButton" value="Назад" />
+            <input type="submit" value="Сохранить" />
+                <input asp-for="Id" type="hidden" />
+        </form>
+    </div>
+    </div>
+    <div class="side-image">
+    </div>
+</div>
+
+    <script>
+        // получаем кнопку по ее селектору CSS
+        let backButton = document.querySelector('#backButton');
+        // добавляем обработчик события
+        backButton.onclick = () => {
+            window.location = "/products/index";
+        };
+    </script>
+

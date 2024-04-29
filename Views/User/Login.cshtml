@@ -1,0 +1,32 @@
+﻿@model LoginViewModel
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Вход</title>
+    <link rel="stylesheet" href="~/styles/login.css" />
+</head>
+<body>
+    @{
+        Layout = null;
+    }
+    <div class="wrapper">
+        <div class="content">
+            <form method="post">
+                <h1>Мебельный магазин</h1>
+                <h2>Вход в систему</h2>
+                <label for="username">Имя пользователя:</label>
+                <input type="text" name="username" />
+                <label for="password">Пароль:</label>
+                <input type="password" name="password" />
+                <p>Или вы можете <a asp-controller="User" asp-action="Registration">зарегистрироваться</a></p>
+                <div asp-validation-summary="All" class="error-messages"></div>
+                <input type="submit" value="Вход в систему" />
+            </form>
+        </div>
+        <div class="side-image">
+        </div>
+    </div>   
+</body>
+</html>

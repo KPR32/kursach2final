@@ -1,0 +1,36 @@
+﻿@model OrderViewModel
+<link rel="stylesheet" href="~/styles/AddProduct.css" />
+
+@{
+    Layout = null;
+}
+
+<div class="wrapper">
+    <div class="content">
+        <form method="post" enctype="multipart/form-data">
+            <h1>Заказ товара:</h1>
+            <div class="form-element">
+                <label asp-for="OrderFinish"></label>
+                <input type="date" asp-for="OrderFinish"/>
+            </div>
+            <div class="form-element">
+                <label asp-for="OrderAddress"></label>
+                <input asp-for="OrderAddress"/>
+            </div>    
+            <div asp-validation-summary="All" class="error-messages"></div>
+            <input type="button" id="backButton" value="Назад" />
+            <input type="submit" value="Сохранить" />
+        </form>
+    </div>
+    <div class="side-image">
+    </div>
+</div>
+
+<script>
+    // получаем кнопку по ее селектору CSS
+    let backButton = document.querySelector('#backButton');
+    // добавляем обработчик события
+    backButton.onclick = () => {
+        window.location = "/products/index";
+    };
+</script>

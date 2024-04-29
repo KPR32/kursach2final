@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Главная</title>
+    <link rel="stylesheet" href="~/styles/main.css" />
+</head>
+<body>
+    <div class="wrapper-center">
+        <!--ШАПКА-->
+        <header>
+            <nav>
+                <div class="brand">
+                    <a href="~/products/index"><h1>Магазин мебели</h1></a>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a href="~/orders/MyOrders">Мои заказы</a></li>
+                        <li><a asp-controller="User" asp-action="Logout">Выход</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!--ОСНОВНАЯ ЧАСТЬ-->
+        <main>
+            <div class="content">
+                @RenderBody()
+            </div>
+        </main>
+        <!--ПОДВАЛ-->
+        <footer>          
+        </footer>
+    </div>
+</body>
+</html>

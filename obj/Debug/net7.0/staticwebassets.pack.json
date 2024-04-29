@@ -1,0 +1,193 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\add.jfif",
+      "PackagePath": "staticwebassets\\images\\add.jfif"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\add1.jpg",
+      "PackagePath": "staticwebassets\\images\\add1.jpg"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\header1.jpg",
+      "PackagePath": "staticwebassets\\images\\header1.jpg"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\login2.jpg",
+      "PackagePath": "staticwebassets\\images\\login2.jpg"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\products\\0jugpq2w.acu.png",
+      "PackagePath": "staticwebassets\\images\\products\\0jugpq2w.acu.png"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\products\\0wvajmhq.4fw.png",
+      "PackagePath": "staticwebassets\\images\\products\\0wvajmhq.4fw.png"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\products\\1gx0seui.qkf.png",
+      "PackagePath": "staticwebassets\\images\\products\\1gx0seui.qkf.png"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\products\\2itj2zw0.xkg.png",
+      "PackagePath": "staticwebassets\\images\\products\\2itj2zw0.xkg.png"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\products\\2thxtsa5.rhn.png",
+      "PackagePath": "staticwebassets\\images\\products\\2thxtsa5.rhn.png"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\products\\4aaff0ln.cbq.png",
+      "PackagePath": "staticwebassets\\images\\products\\4aaff0ln.cbq.png"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\products\\4mqh1nnv.sl3.png",
+      "PackagePath": "staticwebassets\\images\\products\\4mqh1nnv.sl3.png"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\products\\53ynuooa.2s3.png",
+      "PackagePath": "staticwebassets\\images\\products\\53ynuooa.2s3.png"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\products\\5lcrs5jz.dor.png",
+      "PackagePath": "staticwebassets\\images\\products\\5lcrs5jz.dor.png"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\products\\cerz4hpb.xus.png",
+      "PackagePath": "staticwebassets\\images\\products\\cerz4hpb.xus.png"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\products\\cuo1ferk.gaj.png",
+      "PackagePath": "staticwebassets\\images\\products\\cuo1ferk.gaj.png"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\products\\h2yrleof.113.png",
+      "PackagePath": "staticwebassets\\images\\products\\h2yrleof.113.png"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\products\\j3rb4vjy.vo2.png",
+      "PackagePath": "staticwebassets\\images\\products\\j3rb4vjy.vo2.png"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\products\\klpvicws.04o.png",
+      "PackagePath": "staticwebassets\\images\\products\\klpvicws.04o.png"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\products\\lyomq3gg.hpv.png",
+      "PackagePath": "staticwebassets\\images\\products\\lyomq3gg.hpv.png"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\products\\nxzyoeuj.one.png",
+      "PackagePath": "staticwebassets\\images\\products\\nxzyoeuj.one.png"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\products\\okeqhddp.iih.png",
+      "PackagePath": "staticwebassets\\images\\products\\okeqhddp.iih.png"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\products\\oxryrkgh.zz5.png",
+      "PackagePath": "staticwebassets\\images\\products\\oxryrkgh.zz5.png"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\products\\product1.png",
+      "PackagePath": "staticwebassets\\images\\products\\product1.png"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\products\\pt5k0n5i.etp.png",
+      "PackagePath": "staticwebassets\\images\\products\\pt5k0n5i.etp.png"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\products\\qfocgzeb.kb5.png",
+      "PackagePath": "staticwebassets\\images\\products\\qfocgzeb.kb5.png"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\products\\qtwl0mod.sok.png",
+      "PackagePath": "staticwebassets\\images\\products\\qtwl0mod.sok.png"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\products\\r23q3m0m.3nx.png",
+      "PackagePath": "staticwebassets\\images\\products\\r23q3m0m.3nx.png"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\products\\r42ws3ga.5ng.png",
+      "PackagePath": "staticwebassets\\images\\products\\r42ws3ga.5ng.png"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\products\\tazbwx5h.dbq.png",
+      "PackagePath": "staticwebassets\\images\\products\\tazbwx5h.dbq.png"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\products\\unaxih5s.vad.png",
+      "PackagePath": "staticwebassets\\images\\products\\unaxih5s.vad.png"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\products\\uvenbqyg.yue.png",
+      "PackagePath": "staticwebassets\\images\\products\\uvenbqyg.yue.png"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\products\\yakfso0k.rsd.png",
+      "PackagePath": "staticwebassets\\images\\products\\yakfso0k.rsd.png"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\products\\z4bvovcq.jtg.png",
+      "PackagePath": "staticwebassets\\images\\products\\z4bvovcq.jtg.png"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\reg1.jpg",
+      "PackagePath": "staticwebassets\\images\\reg1.jpg"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\reg2.jpg",
+      "PackagePath": "staticwebassets\\images\\reg2.jpg"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\reg3.jpg",
+      "PackagePath": "staticwebassets\\images\\reg3.jpg"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\images\\reg4.jpg",
+      "PackagePath": "staticwebassets\\images\\reg4.jpg"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\products\\product1.png",
+      "PackagePath": "staticwebassets\\products\\product1.png"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\styles\\AddProduct.css",
+      "PackagePath": "staticwebassets\\styles\\AddProduct.css"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\styles\\Registration.css",
+      "PackagePath": "staticwebassets\\styles\\Registration.css"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\styles\\index.css",
+      "PackagePath": "staticwebassets\\styles\\index.css"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\styles\\login.css",
+      "PackagePath": "staticwebassets\\styles\\login.css"
+    },
+    {
+      "Id": "D:\\ШАРАГА\\шааааааарага\\k\\FurnitureStore3\\wwwroot\\styles\\main.css",
+      "PackagePath": "staticwebassets\\styles\\main.css"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.FurnitureStore3.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.FurnitureStore3.props",
+      "PackagePath": "build\\FurnitureStore3.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.FurnitureStore3.props",
+      "PackagePath": "buildMultiTargeting\\FurnitureStore3.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.FurnitureStore3.props",
+      "PackagePath": "buildTransitive\\FurnitureStore3.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
